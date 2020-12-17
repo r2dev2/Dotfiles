@@ -88,7 +88,7 @@ imap <silent> <C-b> <CR><C-o>O
 imap <silent> <C-y> <C-e><C-b>
 
 
-let g:polyglot_disabled = ['python', 'python-indent']
+" let g:polyglot_disabled = ['python', 'python-indent']
 
 
 call plug#begin('~/.vim/plugged')
@@ -105,10 +105,13 @@ Plug 'rstacruz/vim-closer'
 
 call plug#end()
 
-autocmd Filetype cpp setlocal shiftwidth=3 softtabstop=3 expandtab
+
+" Enable cpp command for foothill cpp course
+" autocmd Filetype cpp setlocal shiftwidth=3 softtabstop=3 expandtab
 autocmd Filetype javascript setlocal shiftwidth=2 softtabstop=2 expandtab
 autocmd Filetype yaml setlocal shiftwidth=2 softtabstop=2 expandtab
 autocmd Filetype html setlocal shiftwidth=2 softtabstop=2 expandtab
+autocmd Filetype css setlocal shiftwidth=2 softtabstop=2 expandtab
 autocmd Filetype json setlocal shiftwidth=2 softtabstop=2 expandtab
 autocmd Filetype javascript nnoremap ,kento :setlocal shiftwidth=4 softtabstop=4 expandtab<CR>
 autocmd Filetype python nnoremap <buffer> <F5> :w<CR>:vert botright ter python3 "%"<CR>

@@ -124,6 +124,7 @@ set -o vi
 
 export PATH=/usr/games:$PATH
 export PATH="$HOME/.cargo/bin:$PATH"
+# export PATH="$HOME/v:$PATH"
 # export PULSE_SERVER=tcp:localhost
 export DISPLAY=$(awk '/nameserver / {print $2; exit}' /etc/resolv.conf 2>/dev/null):0 # Only use for WSL
 export LIBGL_ALWAYS_INDIRECT=1
@@ -131,6 +132,9 @@ export WPY='powershell.exe -c python'
 export WINHOME="/mnt/c/Users/ronak"
 export JAVA_HOME="/usr/local/java-current"
 export JUNIT="/usr/share/java/junit4.jar"
+# export EMBED_DOMAIN="https://kentonishi.github.io/LiveTL/embed"
+# export EMBED_DOMAIN="http://localhost:8000/embed"
+export EMBED_DOMAIN="https://cranky-beaver-1d73c7.netlify.app/embed"
 
 fortune -os | cowsay -f tux | tee -a ~/fortunes.txt
 if [ $(pwd) = $HOME ]
