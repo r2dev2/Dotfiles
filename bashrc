@@ -101,6 +101,7 @@ alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo
 # ~/.bash_aliases, instead of adding them here directly.
 # See /usr/share/doc/bash-doc/examples in the bash-doc package.
 
+
 if [ -f ~/.bash_aliases ]; then
     . ~/.bash_aliases
 fi
@@ -122,22 +123,37 @@ fi
 
 set -o vi
 
+
 export PATH=/usr/games:$PATH
 export PATH="$HOME/.cargo/bin:$PATH"
+export PATH=/home/rbadhe/.nimble/bin:$PATH
 # export PATH="$HOME/v:$PATH"
 # export PULSE_SERVER=tcp:localhost
 export DISPLAY=$(awk '/nameserver / {print $2; exit}' /etc/resolv.conf 2>/dev/null):0 # Only use for WSL
+# export PULSE_SERVER=tcp:$(grep nameserver /etc/resolv.conf | awk '{print $2}') # Only use for WSL
 export LIBGL_ALWAYS_INDIRECT=1
 export WPY='powershell.exe -c python'
+export WPY9="powershell.exe -c C:\\Users\\ronak\\AppData\\Local\\Programs\\Python\\Python39\\python.exe"
+export WMPY9="powershell.exe -c C:\\\\Users\\\\ronak\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python39\\\\python.exe"
 export WINHOME="/mnt/c/Users/ronak"
 export JAVA_HOME="/usr/local/java-current"
 export JUNIT="/usr/share/java/junit4.jar"
 # export EMBED_DOMAIN="https://kentonishi.github.io/LiveTL/embed"
 # export EMBED_DOMAIN="http://localhost:8000/embed"
 export EMBED_DOMAIN="https://cranky-beaver-1d73c7.netlify.app/embed"
+export GPG_TTY=$(tty)
+export py="python3.8"
+export YCH="."
+# complete -W "translate conjugate subjunctive imperative continuous perfect perfect-subjunctive'" sp
+# complete -W "translate conjugate subjunctive imperative continuous perfect perfect-subjunctive'" spdict
+complete -W "translate conjugate subjunctive perfect perfect-subjunctive" sp
+complete -W "translate conjugate subjunctive perfect perfect-subjunctive" spdict
+complete -W "$(jq keys[] ~/zooms.json)" zoom
 
 fortune -os | cowsay -f tux | tee -a ~/fortunes.txt
+
 if [ $(pwd) = $HOME ]
 then
 	cd $WINHOME
 fi
+export PATH="/home/rbadhe/.deta/bin:$PATH"
