@@ -18,6 +18,7 @@
       "popup.autoResort": false,
       "popup.borders": false,
       "popup.findStylesInline": true,
+      "popup.findSort": "u",
       "manage.onlyEnabled": false,
       "manage.onlyLocal": false,
       "manage.onlyUsercss": false,
@@ -36,6 +37,7 @@
       "editor.toc.expanded": true,
       "editor.options.expanded": true,
       "editor.lint.expanded": true,
+      "editor.publish.expanded": true,
       "editor.lineWrapping": true,
       "editor.smartIndent": true,
       "editor.indentWithTabs": false,
@@ -205,7 +207,8 @@
     },
     "author": "Seishiin",
     "description": "A dark and sleek theme for googleSupports:<ul><b>  <li>Search</li>  <li>Translator</li>  <li>Calendar</li>  <li>Drive</li>  <li>Docs</li>  <li>Photos</li>  <li>Scholar</li>  <li>Books</li>  <li>Shopping</li>  <li>News</li>  <li>Keep</li>  <li>Play</li></ul></b><b>Note:</b> Gmail has a built-in dark themeFound a bug? Tell me in the comment section below! But be specific and provide a screenshot if you can.After the bug you have submitted has been fixed, please consider changing your rating to a positive one. Thanks.",
-    "updateDate": 1614299678981
+    "updateDate": 1614299678981,
+    "_usw": {}
   },
   {
     "enabled": true,
@@ -225,7 +228,7 @@
     "name": "WikiWand Dark",
     "originalDigest": "e31883520cd50b205e176371a5c8d00cd8c051a6",
     "_id": "d2e3f3e1-7813-4c0a-a91b-64f67bf8c8b5",
-    "_rev": 1623827569331,
+    "_rev": 1636068824948,
     "id": 3,
     "etag": "W/\"191e9e6bb41ac6552dd18cc80fc9e03dcd75384344248caa013ee25b3a98d1cb\"",
     "sourceCode": "/* ==UserStyle==\n@name           WikiWand Dark\n@namespace      USO Archive\n@author         Conor Randall\n@description    `Darkened WikiWand theme, with less bright spots than the one provided by WikiWand.Dark, without ruining the atmosphere.`\n@version        20160320.10.41\n@license        NO-REDISTRIBUTION\n@preprocessor   uso\n==/UserStyle== */\n@-moz-document domain(\"wikiwand.com\"), domain(\"www.wikiwand.com\") {\n#main_menu.navbar_opaque {\n\tbackground-color: hsla(320, 4%, 32%, 1);\n}\ndiv#content {\n\tcolor: rgb(237, 237, 237);\n\tbackground-color: rgba(38, 38, 38, 1);\n}\n#wikiwand_toc {\n\tbackground-color: rgba(58, 58, 58, 1);\n}\n#main_menu.navbar_opaque {\n\tbackground-color: hsla(320, 4%, 32%, 1);\n}\nbody:not(.dark) #header.fold #main_menu.navbar_opaque {\n\tbackground-color: rgb(84, 78, 82);\n}\n#read_more a {\n\tbackground-color: rgba(13, 10, 12, 1);\n}\n#main_menu>li.toc_folded {\n\tbackground-color: #544e52;\n}\nbody.light #article_content_wrapper.padded,\nbody.light #body_wrapp {\n\tcolor: rgb(237, 237, 237);\n\tbackground-color: rgba(38, 38, 38, 1);\n}\n#main_menu {\n\tbackground-color: rgba(84, 78, 82, 1);\n}\n}",
@@ -240,7 +243,8 @@
     },
     "author": "Conor Randall",
     "description": "Darkened WikiWand theme, with less bright spots than the one provided by WikiWand.Dark, without ruining the atmosphere.",
-    "updateDate": 1614299678981
+    "updateDate": 1614299678981,
+    "_usw": {}
   },
   {
     "enabled": false,
@@ -296,7 +300,8 @@
       "preprocessor": "uso"
     },
     "author": "maujogador",
-    "description": "https://userstyles.org/styles/118959/darksearch-for-googleUpdated version of that ^Ignore the license above, this is GPLv3 licensedOptimized for stylus: https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne/related?hl=en"
+    "description": "https://userstyles.org/styles/118959/darksearch-for-googleUpdated version of that ^Ignore the license above, this is GPLv3 licensedOptimized for stylus: https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne/related?hl=en",
+    "_usw": {}
   },
   {
     "enabled": true,
@@ -330,7 +335,8 @@
     },
     "author": "ben999_",
     "description": "This restyles the Google Hangouts interface to be dark with grey highlights similar to the DeepDark style. This is for the hangouts web page or the gmail hangouts sidebar. This is NOT for the chrome webextension (add-on).The Google Bar - Dark Style theme by Devo (https://userstyles.org/styles/120351/google-bar-dark-style) optionally can be applied alongside in order to style the top Google bar interface.",
-    "updateDate": 1614386081331
+    "updateDate": 1614386081331,
+    "_usw": {}
   },
   {
     "enabled": false,
@@ -364,7 +370,8 @@
     },
     "author": "ianpan870102",
     "description": "A port of the popular Dracula theme for GitHub",
-    "updateDate": 1614299679365
+    "updateDate": 1614299679365,
+    "_usw": {}
   },
   {
     "enabled": false,
@@ -415,7 +422,8 @@
     },
     "author": "snnsnn",
     "description": "Current Rust API website is a bit hard to follow. This dark theme aims to make language API documentation on https://doc.rust-lang.org and https://docs.rs more readable with color coding and hierarchical indentation. Since it is dark, it goes easy on the eyes.* Sidebar links and titles reflects code coloring which enhanced hierarchy* Code documentation reflects trait hierarchy* Fixes width for large screens* Puts background color and subtle border color around listed methods* Removes boldness from [+] buttons and makes them smaller and dimmer* Changes color highlighting of documentation and code blocks* And much more..<b>Applies to:</b> <a href=\"https://doc.rust-lang.org\">https://doc.rust-lang.org</a><a href=\"https://docs.rs\">https://docs.rs</a>",
-    "updateDate": 1614299679008
+    "updateDate": 1614299679008,
+    "_usw": {}
   },
   {
     "enabled": false,
@@ -454,7 +462,8 @@
     },
     "author": "abhishekchakraborty",
     "description": "Dark Theme for <a href=\"https://doc.rust-lang.org/\">Rust Documentation</a>",
-    "updateDate": 1614386081317
+    "updateDate": 1614386081317,
+    "_usw": {}
   },
   {
     "enabled": true,
@@ -463,14 +472,14 @@
     "installDate": 1620411098395,
     "sections": [
       {
-        "code": "/*hide page scrollbar*/\nhtml {\n    scrollbar-width: none !important;  /* Firefox */\n}\n\n/*color of text input fields and selected friend*/\n:root, .__fb-light-mode {\n--comment-background: #2e2e2e;\n--hosted-view-selected-state: #2e2e2e;\n--messenger-card-background: #232323; /*match colored corners around self message bubbles*/\n}\n\n/*background color of left sidebar*/\n.hybvsw6c {\n    background-color: #1e1e1e;\n}\n\n/*background color of buttons*/\n.tdjehn4e {\n    background-color: #2e2e2e;\n}\n.hn33210v {\n    background-color: #2e2e2e;\n}\n\n/*top bar shadow*/\n.bafdgad4 {\n    box-shadow: 0 0 4px rgba(0, 0, 0, .44);\n}\n\n/*color of all text except self messages*/\n.oo9gr5id {\n    color: #dadada;\n}\n\n/*background color of chat*/\n.nred35xi {\n    background-color: #232323;\n}\n\n/*hide scrollbars*/\n.eg9m0zos {\n    scrollbar-width: none !important;  /* Firefox */\n}\n\n/*color of friend message bubbles*/\n.g6srhlxm {\n    background-color: #333;\n}\n\n/*color of self  message text*/\n.ljqsnud1 {\n    color: #fff;\n}\n\n/*background color of right sidebar and remove left border*/\n.t63ysoy8 {\n    background-color: #1e1e1e;\n    border-left: 1px #323232 solid;\n}",
+        "code": "/*hide page scrollbar*/\nhtml {\n    scrollbar-width: none !important;  /* Firefox */\n}\n\n/*color of text input fields and selected friend*/\n:root, .__fb-light-mode {\n--comment-background: #2e2e2e;\n--hosted-view-selected-state: #2e2e2e;\n--messenger-card-background: #232323; /*match colored corners around self message bubbles*/\n}\n\n/*background color of left sidebar*/\n.hybvsw6c {\n    background-color: #1e1e1e;\n}\n\n/*background color of buttons*/\n.tdjehn4e {\n    background-color: #2e2e2e;\n}\n.hn33210v {\n    background-color: #2e2e2e;\n}\n\n/*top bar shadow*/\n.bafdgad4 {\n    box-shadow: 0 0 4px rgba(0, 0, 0, .44);\n}\n\n/*color of all text except self messages*/\n.oo9gr5id {\n    color: #dadada;\n}\n\n/*background color of chat*/\n.nred35xi, [data-testid=\"message-container\"] .hybvsw6c {\n    background-color: #232323;\n}\n\n/*hide scrollbars*/\n.eg9m0zos {\n    scrollbar-width: none !important;  /* Firefox */\n}\n\n/*color of friend message bubbles*/\n.g6srhlxm, .e409flbk .ljqsnud1 {\n    background-color: #333 !important;\n}\n\n/*color of self  message text*/\n.ljqsnud1,.pbevjfx6 {\n    color: #fff !important;\n}\n\n/*background color of right sidebar and remove left border*/\n.t63ysoy8 {\n    background-color: #1e1e1e;\n    border-left: 1px #323232 solid;\n}",
         "start": 374,
         "domains": [
           "messenger.com"
         ]
       }
     ],
-    "sourceCode": "/* ==UserStyle==\n@name           Facebook Messenger Dark Grey\n@namespace      USO Archive\n@author         Earth Walker\n@description    `A clean dark theme for messenger. All changes are marked up with comments for easy customization. Enjoy!`\n@version        20201209.2.10\n@license        CC-BY-4.0\n@preprocessor   uso\n==/UserStyle== */\n@-moz-document domain(messenger.com) {\n/*hide page scrollbar*/\nhtml {\n    scrollbar-width: none !important;  /* Firefox */\n}\n\n/*color of text input fields and selected friend*/\n:root, .__fb-light-mode {\n--comment-background: #2e2e2e;\n--hosted-view-selected-state: #2e2e2e;\n--messenger-card-background: #232323; /*match colored corners around self message bubbles*/\n}\n\n/*background color of left sidebar*/\n.hybvsw6c {\n    background-color: #1e1e1e;\n}\n\n/*background color of buttons*/\n.tdjehn4e {\n    background-color: #2e2e2e;\n}\n.hn33210v {\n    background-color: #2e2e2e;\n}\n\n/*top bar shadow*/\n.bafdgad4 {\n    box-shadow: 0 0 4px rgba(0, 0, 0, .44);\n}\n\n/*color of all text except self messages*/\n.oo9gr5id {\n    color: #dadada;\n}\n\n/*background color of chat*/\n.nred35xi {\n    background-color: #232323;\n}\n\n/*hide scrollbars*/\n.eg9m0zos {\n    scrollbar-width: none !important;  /* Firefox */\n}\n\n/*color of friend message bubbles*/\n.g6srhlxm {\n    background-color: #333;\n}\n\n/*color of self  message text*/\n.ljqsnud1 {\n    color: #fff;\n}\n\n/*background color of right sidebar and remove left border*/\n.t63ysoy8 {\n    background-color: #1e1e1e;\n    border-left: 1px #323232 solid;\n}\n}",
+    "sourceCode": "/* ==UserStyle==\n@name           Facebook Messenger Dark Grey\n@namespace      USO Archive\n@author         Earth Walker\n@description    `A clean dark theme for messenger. All changes are marked up with comments for easy customization. Enjoy!`\n@version        20201209.2.10\n@license        CC-BY-4.0\n@preprocessor   uso\n==/UserStyle== */\n@-moz-document domain(messenger.com) {\n/*hide page scrollbar*/\nhtml {\n    scrollbar-width: none !important;  /* Firefox */\n}\n\n/*color of text input fields and selected friend*/\n:root, .__fb-light-mode {\n--comment-background: #2e2e2e;\n--hosted-view-selected-state: #2e2e2e;\n--messenger-card-background: #232323; /*match colored corners around self message bubbles*/\n}\n\n/*background color of left sidebar*/\n.hybvsw6c {\n    background-color: #1e1e1e;\n}\n\n/*background color of buttons*/\n.tdjehn4e {\n    background-color: #2e2e2e;\n}\n.hn33210v {\n    background-color: #2e2e2e;\n}\n\n/*top bar shadow*/\n.bafdgad4 {\n    box-shadow: 0 0 4px rgba(0, 0, 0, .44);\n}\n\n/*color of all text except self messages*/\n.oo9gr5id {\n    color: #dadada;\n}\n\n/*background color of chat*/\n.nred35xi, [data-testid=\"message-container\"] .hybvsw6c {\n    background-color: #232323;\n}\n\n/*hide scrollbars*/\n.eg9m0zos {\n    scrollbar-width: none !important;  /* Firefox */\n}\n\n/*color of friend message bubbles*/\n.g6srhlxm, .e409flbk .ljqsnud1 {\n    background-color: #333 !important;\n}\n\n/*color of self  message text*/\n.ljqsnud1,.pbevjfx6 {\n    color: #fff !important;\n}\n\n/*background color of right sidebar and remove left border*/\n.t63ysoy8 {\n    background-color: #1e1e1e;\n    border-left: 1px #323232 solid;\n}\n}",
     "usercssData": {
       "name": "Facebook Messenger Dark Grey",
       "namespace": "USO Archive",
@@ -486,9 +495,11 @@
     "installationUrl": "https://33kk.github.io/uso-archive/?style=193993",
     "originalDigest": "54ac5397d054f1d2239e49eff8298ebffeeb5269",
     "_id": "1e164224-034f-49f0-b832-ef3b5d0be288",
-    "_rev": 1625267952943,
+    "_rev": 1628811150257,
     "id": 17,
-    "etag": "W/\"6ece6f4533e7359b94b3588d4b49466552f2bc4fceb50cb41c6f58af7f86bc73\""
+    "etag": "W/\"6ece6f4533e7359b94b3588d4b49466552f2bc4fceb50cb41c6f58af7f86bc73\"",
+    "_usw": {},
+    "updateDate": 1628811150257
   },
   {
     "enabled": true,
@@ -498,16 +509,17 @@
     "name": "Discord Good Emotes",
     "sections": [
       {
-        "code": "/**\n * Backup of css vars\n *\n * --background-modifier-accent: TODO\n * --text-muted: TODO\n */\n\n/* Top one when you inspect the styles */\n.reactionInner-15NvIl {\n  padding: 0rem 0.375rem;\n}\n\n/* The next one when you inspect reaction inner styles */\n.reaction-1hd86g {\n  border-radius: 0.25rem;\n  margin-right: 0.125rem;\n  margin-left: 0.125rem;\n  background: var(--background-modifier-accent);\n  border: 0px !important;\n  /* TODO add the transition that i sent to kento in dm */\n}\n\n.reaction-1hd86g:hover {\n  background: var(--background-modifier-accent) !important;\n  border: 0px !important;\n}\n\n/* The count div child of reactionInner */\n.reactionCount-2mvXRV {\n  color: var(--text-muted);\n}\n\n/* The class when you react with an emote */\n.reactionMe-wv5HKu, .reactionMe-wv5HKu:hover  {\n  background-color: rgba(114,137,218,.3) !important;\n}\n\n.reactionMe-wv5HKu .reactionCount-2mvXRV, .reactionMe-wv5HKu:hover .reactionCount-2mvXRV {\n  color: #7289da !important;\n}\n",
+        "code": "/**\n * Backup of css vars\n *\n * --background-modifier-accent: TODO\n * --text-muted: TODO\n */\n\n/* Top one when you inspect the styles */\n.reactionInner-9eVHJa {\n  padding: 0rem 0.375rem;\n}\n\n/* The next one when you inspect reaction inner styles */\n.reaction-2A2y9y {\n  border-radius: 0.25rem;\n  margin-right: 0.125rem;\n  margin-left: 0.125rem;\n  background: var(--background-modifier-accent);\n  border: 0px !important;\n  /* TODO add the transition that i sent to kento in dm */\n}\n\n.reaction-2A2y9y:hover {\n  background: var(--background-modifier-accent) !important;\n  border: 0px !important;\n}\n\n/* The count div child of reactionInner */\n.reactionCount-1zkLcN {\n  color: var(--text-muted);\n}\n\n/* The class when you react with an emote */\n.reactionMe-3I9gFK, .reactionMe-3I9gFK:hover  {\n  background-color: rgba(114,137,218,.3) !important;\n}\n\n.reactionMe-3I9gFK .reactionCount-1zkLcN, .reactionMe-3I9gFK:hover .reactionCount-1zkLcN {\n  color: #7289da !important;\n}\n",
         "urlPrefixes": [
           "https://discord.com"
         ]
       }
     ],
-    "updateDate": 1620796022575,
+    "updateDate": 1641940712779,
     "_id": "147e2224-803f-4a1b-97e3-69007ae6fe0a",
-    "_rev": 1623827569331,
-    "id": 18
+    "_rev": 1641940712779,
+    "id": 18,
+    "_usw": {}
   },
   {
     "enabled": true,
@@ -525,8 +537,9 @@
     ],
     "updateDate": 1626560522732,
     "_id": "d49827cb-d8d3-46ac-8365-08b4cbe64292",
-    "_rev": 1626560522732,
-    "id": 19
+    "_rev": 1628108052986,
+    "id": 19,
+    "_usw": {}
   },
   {
     "enabled": true,
@@ -536,18 +549,20 @@
     "name": "Noto sans font",
     "sections": [
       {
-        "code": "body {\n    font-family: Noto Sans;\n}",
+        "code": "html,body {\n    font-family: Noto Sans;\n}",
         "domains": [
           "messenger.com",
           "facebook.com",
-          "chess.com"
+          "chess.com",
+          "collegenet.com"
         ]
       }
     ],
-    "updateDate": 1625979730830,
+    "updateDate": 1630715126671,
     "_id": "6b023112-c269-4395-81a1-afdd0d9280a1",
-    "_rev": 1625979730830,
-    "id": 20
+    "_rev": 1630715126671,
+    "id": 20,
+    "_usw": {}
   },
   {
     "enabled": true,
@@ -566,6 +581,47 @@
     "updateDate": 1624050772019,
     "_id": "04640d01-fe23-4083-8259-8c2f8765239f",
     "_rev": 1624050772019,
-    "id": 21
+    "id": 21,
+    "_usw": {}
+  },
+  {
+    "enabled": true,
+    "updateUrl": null,
+    "url": null,
+    "installDate": 1629732613253,
+    "name": "fuhsd.schoology.com",
+    "sections": [
+      {
+        "code": ".modified-score-percent-warning,img[alt=\"Course Economics - 1835: BaleJ p3 T1\"],img[alt=\"Course US Government - 1845: PughD p3 T2\"],img[src=\"https://asset-cdn.schoology.com/system/files/imagecache/profile_reg/courselogos/logo-5481323403_61d289a500600.gif?1641187749\"] {\n    display: none;\n}",
+        "domains": [
+          "fuhsd.schoology.com"
+        ]
+      }
+    ],
+    "updateDate": 1641408506928,
+    "_id": "37d69640-1ec0-4f22-99d2-f6fe6fec1af3",
+    "_rev": 1641408506928,
+    "id": 22,
+    "_usw": {}
+  },
+  {
+    "enabled": false,
+    "updateUrl": null,
+    "url": null,
+    "installDate": 1630024993558,
+    "name": "quizlet.com",
+    "sections": [
+      {
+        "code": "body {\n    overflow-x: hidden;\n}",
+        "domains": [
+          "quizlet.com"
+        ]
+      }
+    ],
+    "updateDate": 1630024993558,
+    "_id": "d2a8bbe0-00e9-41c2-8dc4-86464fd8f512",
+    "_rev": 1635487002404,
+    "id": 23,
+    "_usw": {}
   }
 ]
